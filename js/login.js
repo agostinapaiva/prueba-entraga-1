@@ -1,7 +1,7 @@
 function login() {
     // Suponiendo que la autenticación es exitosa
     localStorage.setItem('isLoggedIn', 'true');
-    window.location.href = 'idex.html';  // Redirige a la portada
+    window.location.href = 'index.html';  // Redirige a la portada
 }
 
 window.onload = function() {
