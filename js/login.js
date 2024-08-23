@@ -10,6 +10,7 @@ function login(){
         } else {
             sessionStorage.setItem("session", "loggedin");
             localStorage.setItem("userlogger", username);
+            localStorage.setItem("userlogger", password);
             window.location.href = "index.html";
         }
     }
